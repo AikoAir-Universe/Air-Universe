@@ -1,6 +1,6 @@
 package SSPanelAPI
 
-import "github.com/AikoAir-Univeverse/Air-Universe/pkg/structures"
+import "github.com/AikoAir-Universe/Air-Universe/pkg/structures"
 
 type SspController struct {
 	URL      string

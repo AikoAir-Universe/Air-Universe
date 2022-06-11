@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/AikoAir-Univeverse/Air-Universe/pkg/structures"
+	"github.com/AikoAir-Universe/Air-Universe/pkg/structures"
 	log "github.com/sirupsen/logrus"
 )
 

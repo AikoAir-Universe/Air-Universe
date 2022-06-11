@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/AikoAir-Univeverse/Air-Universe/pkg/structures"
+	"github.com/AikoAir-Universe/Air-Universe/pkg/structures"
 )
 
 //# v2ray.com/core/common/buf

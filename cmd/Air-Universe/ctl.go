@@ -3,11 +3,11 @@ package main
 import (
 	"errors"
 
-	"github.com/AikoAir-Univeverse/Air-Universe/pkg/DjangoSSPanelAPI"
-	"github.com/AikoAir-Univeverse/Air-Universe/pkg/SSPanelAPI"
-	"github.com/AikoAir-Univeverse/Air-Universe/pkg/V2boardAPI"
-	"github.com/AikoAir-Univeverse/Air-Universe/pkg/XrayAPI"
-	"github.com/AikoAir-Univeverse/Air-Universe/pkg/structures"
+	"github.com/AikoAir-Universe/Air-Universe/pkg/DjangoSSPanelAPI"
+	"github.com/AikoAir-Universe/Air-Universe/pkg/SSPanelAPI"
+	"github.com/AikoAir-Universe/Air-Universe/pkg/V2boardAPI"
+	"github.com/AikoAir-Universe/Air-Universe/pkg/XrayAPI"
+	"github.com/AikoAir-Universe/Air-Universe/pkg/structures"
 	log "github.com/sirupsen/logrus"
 )
 

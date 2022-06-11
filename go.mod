@@ -1,4 +1,4 @@
-module github.com/AikoAir-Univeverse/Air-Universe
+module github.com/AikoAir-Universe/Air-Universe
 
 go 1.18
 

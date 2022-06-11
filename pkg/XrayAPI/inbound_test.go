@@ -5,8 +5,8 @@ import (
 	"log"
 	"testing"
 
-	"github.com/AikoAir-Univeverse/Air-Universe/pkg/SSPanelAPI"
-	"github.com/AikoAir-Univeverse/Air-Universe/pkg/structures"
+	"github.com/AikoAir-Universe/Air-Universe/pkg/SSPanelAPI"
+	"github.com/AikoAir-Universe/Air-Universe/pkg/structures"
 )
 
 var (

@@ -3,7 +3,7 @@ package DjangoSSPanelAPI
 import (
 	"errors"
 
-	"github.com/AikoAir-Univeverse/Air-Universe/pkg/structures"
+	"github.com/AikoAir-Universe/Air-Universe/pkg/structures"
 )
 
 func (sspCtl *DjSspController) GetNodeInfo(closeTLS bool) (err error) {

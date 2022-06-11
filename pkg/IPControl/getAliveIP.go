@@ -8,7 +8,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/AikoAir-Univeverse/Air-Universe/pkg/structures"
+	"github.com/AikoAir-Universe/Air-Universe/pkg/structures"
 	regexp "github.com/dlclark/regexp2"
 
 	"strings"

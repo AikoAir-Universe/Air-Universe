@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/AikoAir-Univeverse/Air-Universe/pkg/structures"
+	"github.com/AikoAir-Universe/Air-Universe/pkg/structures"
 	"github.com/bitly/go-simplejson"
 )
 

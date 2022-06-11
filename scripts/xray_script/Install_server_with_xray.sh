@@ -69,8 +69,8 @@ Installation_dependency() {
 }
 download() {
   mkdir /usr/local/etc/au/
-  airuniverse_url="https://github.com/AikoAir-Univeverse/Air-Universe/releases/download/${VERSION}/Air-Universe-linux-amd64"
-  xray_json_url="https://raw.githubusercontent.com/AikoAir-Univeverse/Air-Universe/master/configs/xray_json/multiIn.json"
+  airuniverse_url="https://github.com/AikoAir-Universe/Air-Universe/releases/download/${VERSION}/Air-Universe-linux-amd64"
+  xray_json_url="https://raw.githubusercontent.com/AikoAir-Universe/Air-Universe/master/configs/xray_json/multiIn.json"
 
   mv /usr/local/etc/xray/config.json /usr/local/etc/xray/config.json.bak
   wget -N --no-check-certificate ${xray_json_url} -O /usr/local/etc/xray/config.json
@@ -84,7 +84,7 @@ get_latest_version() {
   # Get Xray latest release version number
   local tmp_file
   tmp_file="$(mktemp)"
-  if ! curl -x "${PROXY}" -sS -H "Accept: application/vnd.github.v3+json" -o "$tmp_file" 'https://api.github.com/repos/AikoAir-Univeverse/Air-Universe/releases/latest'; then
+  if ! curl -x "${PROXY}" -sS -H "Accept: application/vnd.github.v3+json" -o "$tmp_file" 'https://api.github.com/repos/AikoAir-Universe/Air-Universe/releases/latest'; then
     "rm" "$tmp_file"
     echo 'error: Failed to get release list, please check your network.'
     exit 1
@@ -95,7 +95,7 @@ get_latest_version() {
       echo "error: github API rate limit exceeded"
     else
       echo "error: Failed to get the latest release version."
-      echo "Welcome bug report:https://github.com/AikoAir-Univeverse/Air-Universe/issues"
+      echo "Welcome bug report:https://github.com/AikoAir-Universe/Air-Universe/issues"
     fi
     "rm" "$tmp_file"
     exit 1

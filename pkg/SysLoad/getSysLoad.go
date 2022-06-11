@@ -1,7 +1,7 @@
 package SysLoad
 
 import (
-	"github.com/AikoAir-Univeverse/Air-Universe/pkg/structures"
+	"github.com/AikoAir-Universe/Air-Universe/pkg/structures"
 	"github.com/shirou/gopsutil/host"
 	"github.com/shirou/gopsutil/load"
 )

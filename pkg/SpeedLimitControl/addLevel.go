@@ -1,6 +1,6 @@
 package SpeedLimitControl
 
-import "github.com/AikoAir-Univeverse/Air-Universe/pkg/structures"
+import "github.com/AikoAir-Universe/Air-Universe/pkg/structures"
 
 /*
 	向上匹配限速策略，即如果策略限制只有 1Mbps, 10Mbps 用户限速5Mbps 最终会匹配到 10Mbps

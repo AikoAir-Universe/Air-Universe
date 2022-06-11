@@ -22,7 +22,7 @@
     
 
 3. 程序下载地址
-    - Air-Universe [下载地址](https://github.com/AikoAir-Univeverse/Air-Universe/releases)
+    - Air-Universe [下载地址](https://github.com/AikoAir-Universe/Air-Universe/releases)
     - Xray-core [下载地址](https://github.com/XTLS/Xray-core/releases)
      
 
@@ -31,11 +31,11 @@
    > 
    > Air-Universe 默认自动配置入站。
     - Air-Universe
-        - [文档地址](https://github.com/AikoAir-Univeverse/Air-Universe/blob/master/docs/Doc_cn.md)
-        - [样例地址](https://github.com/AikoAir-Univeverse/Air-Universe/tree/master/configs/Air-Universe_json)
+        - [文档地址](https://github.com/AikoAir-Universe/Air-Universe/blob/master/docs/Doc_cn.md)
+        - [样例地址](https://github.com/AikoAir-Universe/Air-Universe/tree/master/configs/Air-Universe_json)
     - Xray
         - [文档地址](https://xtls.github.io/guide/document/)
-        - [样例地址](https://github.com/AikoAir-Univeverse/Air-Universe/blob/master/configs/xray_json/multiIn.json)
+        - [样例地址](https://github.com/AikoAir-Universe/Air-Universe/blob/master/configs/xray_json/multiIn.json)
         
 ## 安装
 1. 首先启动代理内核(Xray or V2Ray)
