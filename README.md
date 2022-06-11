@@ -10,7 +10,7 @@ Air-Universe AikoCute Projects
 [![](https://img.shields.io/github/downloads/AikoAir-Universe/Air-Universe/total.svg?style=flat-square)](https://github.com/AikoAir-Univeverse/Air-Universe/releases)
 [![](https://img.shields.io/github/v/release/AikoAir-Universe/Air-Universe?style=flat-square)](https://github.com/AikoAir-Univeverse/Air-Universe/releases)
 [![docker](https://img.shields.io/docker/v/aikocute/airu?label=Docker%20image&sort=semver)](https://hub.docker.com/r/aikocute/airu)
-[[![Build and Release](https://github.com/AikoAir-Universe/Air-Universe/actions/workflows/release.yml/badge.svg)](https://github.com/AikoAir-Universe/Air-Universe/actions/workflows/release.yml)
+[![Build and Release](https://github.com/AikoAir-Universe/Air-Universe/actions/workflows/release.yml/badge.svg)](https://github.com/AikoAir-Universe/Air-Universe/actions/workflows/release.yml)
 <img alt="visited" src="https://badges.pufler.dev/visits/AikoAir-Universe/Air-Universe"/>
 </div>
 
