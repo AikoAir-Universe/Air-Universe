@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/AikoAir-Univeverse/Air-Universe/pkg/structures"
 	"github.com/bitly/go-simplejson"
-	"github.com/crossfw/Air-Universe/pkg/structures"
 	regexp "github.com/dlclark/regexp2"
 )
 

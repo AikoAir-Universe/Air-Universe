@@ -1,4 +1,4 @@
-module github.com/crossfw/Air-Universe
+module github.com/AikoAir-Univeverse/Air-Universe
 
 go 1.18
 

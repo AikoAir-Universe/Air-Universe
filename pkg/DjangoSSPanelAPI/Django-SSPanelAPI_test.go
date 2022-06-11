@@ -2,9 +2,10 @@ package DjangoSSPanelAPI
 
 import (
 	"fmt"
-	"github.com/crossfw/Air-Universe/pkg/SysLoad"
-	"github.com/crossfw/Air-Universe/pkg/structures"
 	"testing"
+
+	"github.com/AikoAir-Univeverse/Air-Universe/pkg/SysLoad"
+	"github.com/AikoAir-Univeverse/Air-Universe/pkg/structures"
 )
 
 var (

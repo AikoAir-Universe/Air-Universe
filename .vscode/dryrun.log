@@ -1,0 +1,12 @@
+make: Entering directory `/Users/aiko/Desktop/aikocute.git/Air-Universe'
+GOARCH=amd64 GOOS=linux CGO_ENABLED=0 go build --ldflags="-s -w" -v -x -a -o bin/Air-Universe-linux-amd64 cmd/Air-Universe/*
+GOARCH=386 GOOS=linux CGO_ENABLED=0 go build --ldflags="-s -w" -v -x -a -o bin/Air-Universe-linux-386 cmd/Air-Universe/*
+ 
+GOARCH=amd64 GOOS=windows CGO_ENABLED=0 go build --ldflags="-s -w" -v -x -a -o bin/Air-Universe-windows-amd64.exe cmd/Air-Universe/*
+GOARCH=arm GOOS=linux GOARM=5 CGO_ENABLED=0 go build --ldflags="-s -w" -v -x -a -o bin/Air-Universe-linux-armv5 cmd/Air-Universe/*
+GOARCH=arm GOOS=linux GOARM=6 CGO_ENABLED=0 go build --ldflags="-s -w" -v -x -a -o bin/Air-Universe-linux-armv6 cmd/Air-Universe/*
+GOARCH=arm64 GOOS=linux CGO_ENABLED=0 go build --ldflags="-s -w" -v -x -a -o bin/Air-Universe-linux-armv8 cmd/Air-Universe/*
+GOARCH=mips64 GOOS=linux CGO_ENABLED=0 go build --ldflags="-s -w" -v -x -a -o bin/Air-Universe-linux-mips64 cmd/Air-Universe/*
+GOARCH=mips64le GOOS=linux CGO_ENABLED=0 go build --ldflags="-s -w" -v -x -a -o bin/Air-Universe-linux-mips64le cmd/Air-Universe/*
+make: Leaving directory `/Users/aiko/Desktop/aikocute.git/Air-Universe'
+ 

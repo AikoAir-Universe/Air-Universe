@@ -26,9 +26,19 @@ jobs:
     strategy:
       matrix:
         # Include amd64 on all platforms.
-        goos: [windows, linux]
+        goos: [windows, freebsd, linux, dragonfly, darwin]
         goarch: [amd64, 386]
+        exclude:
+          # Exclude i386 on darwin and dragonfly.
+          - goarch: 386
+            goos: dragonfly
+          - goarch: 386
+            goos: darwin
         include:
+          # BEIGIN MacOS ARM64
+          - goos: darwin
+            goarch: arm64
+          # END MacOS ARM64
           # BEGIN Linux ARM 5 6 7
           - goos: linux
             goarch: arm
@@ -44,6 +54,12 @@ jobs:
           - goos: android
             goarch: arm64
           # END Android ARM 8
+          # Windows ARM
+          - goos: windows
+            goarch: arm64
+          - goos: windows
+            goarch: arm
+            goarm: 7
           # BEGIN Other architectures
           # BEGIN riscv64 & ARM64
           - goos: linux
@@ -51,7 +67,6 @@ jobs:
           - goos: linux
             goarch: riscv64
           # END riscv64 & ARM64
-          # BEGIN Other architectures
           # BEGIN MIPS
           - goos: linux
             goarch: mips64
@@ -62,6 +77,12 @@ jobs:
           - goos: linux
             goarch: mips
           # END MIPS
+          # BEGIN PPC
+          - goos: linux
+            goarch: ppc64
+          - goos: linux
+            goarch: ppc64le
+          # END PPC
           # BEGIN FreeBSD ARM
           - goos: freebsd
             goarch: arm64
@@ -73,7 +94,6 @@ jobs:
           - goos: linux
             goarch: s390x
           # END S390X
-          # END Other architectures
           # END Other architectures
       fail-fast: false
     runs-on: ubuntu-latest
@@ -96,7 +116,7 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v2
         with:
-          go-version: 1.16
+          go-version: 1.18
 
       - name: Get project dependencies
         run: go mod download

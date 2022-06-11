@@ -1,0 +1,575 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Sun Jun 12 00:51:31 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+ 
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# makefile (from `Makefile', line 24)
+WINDOWS_ARCH_LIST = windows-386 windows-amd64
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/aiko/Desktop/aikocute.git/Air-Universe
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 4)
+GOBUILD = CGO_ENABLED=0 go build --ldflags="-s -w" -v -x -a
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# makefile (from `Makefile', line 7)
+PLATFORM_LIST = darwin-amd64 linux-386 linux-amd64 linux-armv5 linux-armv6 linux-armv7 linux-armv8 linux-mips-softfloat linux-mips-hardfloat linux-mipsle-softfloat linux-mipsle-hardfloat linux-mips64 linux-mips64le freebsd-386 freebsd-amd64
+# makefile (from `Makefile', line 3)
+VERSION = $(shell cat cmd/Air-Universe/main.go | grep 'VERSION =' | sed 's/.*\"\(.*\)\".*/\1/g')
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/s9/k96g238s19j75mb1hz_sxkwm0000gn/T/vscode-ipc-318fe823-1b14-4466-a76f-a5d09b1dc98c.sock
+# environment
+VSCODE_CWD = /
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
+PATH = /usr/local/go/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+# environment
+GOPATH = /Users/aiko/go
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.N6imrDcDFB/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/aiko/Desktop/aikocute.git/Air-Universe
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+GOMODCACHE = /Users/aiko/go/pkg/mod
+# environment
+HOME = /Users/aiko
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/aiko/Library/Application Support/Code/CachedData/4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+LOGNAME = aiko
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# makefile (from `Makefile', line 2)
+BINDIR = bin
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = aiko
+# makefile
+.DEFAULT_GOAL := all
+# makefile (from `Makefile', line 1)
+NAME = Air-Universe
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/s9/k96g238s19j75mb1hz_sxkwm0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/aiko/Library/Application Support/Code/1.68.0-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.74143.74149
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# makefile (from `Makefile', line 83)
+gz_releases = $(addsuffix .gz, $(PLATFORM_LIST))
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# makefile (from `Makefile', line 84)
+zip_releases = $(addsuffix .zip, $(WINDOWS_ARCH_LIST))
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from `Makefile', line 5)
+GOFILES = cmd/Air-Universe/*
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+ 
+# environment
+VSCODE_PID = 1899
+# variable set hash-table stats:
+# Load=73/1024=7%, Rehash=0, Collisions=6/112=5%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777232, inode 1598079): 17 files, no impossibilities.
+
+# 17 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+linux-mipsle-hardfloat.gz: linux-mipsle-hardfloat
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `linux-mipsle-hardfloat'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 87):
+	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
+	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
+	
+
+freebsd-amd64:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 75):
+	GOARCH=amd64 GOOS=freebsd $(GOBUILD) -o $(BINDIR)/$(NAME)-$@ $(GOFILES)
+	
+
+linux-mips64.gz: linux-mips64
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `linux-mips64'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 87):
+	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
+	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
+	
+
+darwin-amd64.gz: darwin-amd64
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `darwin-amd64'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 87):
+	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
+	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
+	
+
+all: linux-amd64 linux-386 windows-amd64 linux-armv5 linux-armv6 linux-armv8 linux-mips64 linux-mips64le
+#  Command-line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+windows-amd64.zip: windows-amd64
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `windows-amd64'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 91):
+	zip -m -j $(BINDIR)/$(NAME)-$(basename $@)-$(VERSION).zip $(BINDIR)/$(NAME)-$(basename $@).exe
+	
+
+linux-mips-softfloat:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 54):
+	GOARCH=mips GOMIPS=softfloat GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@ $(GOFILES)
+	
+
+linux-386.gz: linux-386
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `linux-386'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 87):
+	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
+	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
+	
+
+all-arch: darwin-amd64 linux-386 linux-amd64 linux-armv5 linux-armv6 linux-armv7 linux-armv8 linux-mips-softfloat linux-mips-hardfloat linux-mipsle-softfloat linux-mipsle-hardfloat linux-mips64 linux-mips64le freebsd-386 freebsd-amd64 windows-386 windows-amd64
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-armv6.gz: linux-armv6
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `linux-armv6'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 87):
+	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
+	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
+	
+
+linux-mips64:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 66):
+	GOARCH=mips64 GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@ $(GOFILES)
+	
+
+linux-mipsle-hardfloat:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 63):
+	GOARCH=mipsle GOMIPS=hardfloat GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@ $(GOFILES)
+	
+
+darwin-amd64:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 33):
+	GOARCH=amd64 GOOS=darwin $(GOBUILD) -o $(BINDIR)/$(NAME)-$@ $(GOFILES)
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-mipsle-softfloat.gz: linux-mipsle-softfloat
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `linux-mipsle-softfloat'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 87):
+	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
+	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
+	
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-12 00:48:58
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+test: linux-amd64 windows-amd64
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-armv8.gz: linux-armv8
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `linux-armv8'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 87):
+	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
+	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
+	
+
+linux-386:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 36):
+	GOARCH=386 GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@ $(GOFILES)
+	
+
+releases: darwin-amd64.gz linux-386.gz linux-amd64.gz linux-armv5.gz linux-armv6.gz linux-armv7.gz linux-armv8.gz linux-mips-softfloat.gz linux-mips-hardfloat.gz linux-mipsle-softfloat.gz linux-mipsle-hardfloat.gz linux-mips64.gz linux-mips64le.gz freebsd-386.gz freebsd-amd64.gz windows-386.zip windows-amd64.zip
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-armv6:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 45):
+	GOARCH=arm GOOS=linux GOARM=6 $(GOBUILD) -o $(BINDIR)/$(NAME)-$@ $(GOFILES)
+	
+
+linux-mips64le.gz: linux-mips64le
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `linux-mips64le'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 87):
+	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
+	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
+	
+
+linux-amd64.gz: linux-amd64
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `linux-amd64'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 87):
+	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
+	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
+	
+
+linux-mipsle-softfloat:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 60):
+	GOARCH=mipsle GOMIPS=softfloat GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@ $(GOFILES)
+	
+
+linux-armv8:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 51):
+	GOARCH=arm64 GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@ $(GOFILES)
+	
+
+linux-armv5.gz: linux-armv5
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `linux-armv5'
+#  Modification time never checked.
+ 
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 87):
+	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
+	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
+	
+
+freebsd-386.gz: freebsd-386
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `freebsd-386'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 87):
+	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
+	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
+	
+
+linux-armv7.gz: linux-armv7
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `linux-armv7'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 87):
+	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
+	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+linux-amd64:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := linux-amd64
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  commands to execute (from `Makefile', line 39):
+	GOARCH=amd64 GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@ $(GOFILES)
+	
+
+linux-mips-hardfloat.gz: linux-mips-hardfloat
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `linux-mips-hardfloat'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 87):
+	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
+	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
+	
+
+linux-mips64le:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 69):
+	GOARCH=mips64le GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@ $(GOFILES)
+	
+
+windows-386:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 78):
+	GOARCH=386 GOOS=windows $(GOBUILD) -o $(BINDIR)/$(NAME)-$@.exe $(GOFILES)
+	
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 97):
+	rm $(BINDIR)/*
+	
+
+linux-armv5:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 42):
+	GOARCH=arm GOOS=linux GOARM=5 $(GOBUILD) -o $(BINDIR)/$(NAME)-$@ $(GOFILES)
+	
+
+freebsd-386:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 72):
+	GOARCH=386 GOOS=freebsd $(GOBUILD) -o $(BINDIR)/$(NAME)-$@ $(GOFILES)
+	
+
+linux-armv7:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 48):
+	GOARCH=arm GOOS=linux GOARM=7 $(GOBUILD) -o $(BINDIR)/$(NAME)-$@ $(GOFILES)
+	
+
+freebsd-amd64.gz: freebsd-amd64
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `freebsd-amd64'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 87):
+	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
+	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
+	
+
+windows-386.zip: windows-386
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `windows-386'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 91):
+	zip -m -j $(BINDIR)/$(NAME)-$(basename $@)-$(VERSION).zip $(BINDIR)/$(NAME)-$(basename $@).exe
+	
+
+linux-mips-hardfloat:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 57):
+	GOARCH=mips GOMIPS=hardfloat GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@ $(GOFILES)
+	
+
+linux-mips-softfloat.gz: linux-mips-softfloat
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `linux-mips-softfloat'
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 87):
+	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
+	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
+	
+
+windows-amd64:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 81):
+	GOARCH=amd64 GOOS=windows $(GOBUILD) -o $(BINDIR)/$(NAME)-$@.exe $(GOFILES)
+	
+
+# files hash-table stats:
+# Load=42/1024=4%, Rehash=0, Collisions=1/117=1%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Finished Make data base on Sun Jun 12 00:51:31 2022
+
+ 

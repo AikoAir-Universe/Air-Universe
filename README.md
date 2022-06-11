@@ -1,76 +1,73 @@
-# Air-Universe
+<p align="center"><img src="https://avatars.githubusercontent.com/u/91626055?v=4" width="128" /></p>
 
-开源多功能机场后端， 协议支持 V2Ray(VMess), Trojan, Shadowsocks(单端口多用户)；面板支持 django-sspanel, SSPanel, v2board.
+<div align="center">
 
-> 反馈 TG 群: https://t.me/Air_Universe <br>
-> 喜欢本项目欢迎 Star⭐
+# AikoAir-Universe
+Air-Universe AikoCute Projects
 
-## 文档
-
-- [WIKI](https://github.com/crossfw/Air-Universe/wiki)
-- [一键脚本](https://github.com/crossfw/Air-Universe/wiki/%E4%B8%80%E9%94%AE%E8%84%9A%E6%9C%AC%E5%AE%89%E8%A3%85)
-- [第三方一键脚本](https://github.com/jinwyp/one_click_script/blob/master/TOOL_CN.md)
-- [Docker安装](https://github.com/crossfw/Air-Universe-DockerInstall)
-- [配置文件文档](https://github.com/crossfw/Air-Universe/wiki/%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)
-- [手动安装说明](https://github.com/crossfw/Air-Universe/wiki/%E6%89%8B%E5%8A%A8%E5%AE%89%E8%A3%85)
-
-
-## 功能介绍
-
-> √: 使用该功能仅需使用一键脚本，无须用户干预<br>
-> 手动: 使用该功能需要用户自行配置，需要用户手动修改 Xray 配置文件或更新 Xray 程序<br>
-> ×: 目前不支持该功能
+[![](https://img.shields.io/badge/Telegram-group-green?style=flat-square)](https://t.me/aikocutehotme)
+[![](https://img.shields.io/badge/Telegram-channel-blue?style=flat-square)](https://t.me/AikoCute_Support)
+[![](https://img.shields.io/github/downloads/AikoXrayR-Project/XrayR/total.svg?style=flat-square)](https://github.com/AikoAir-Univeverse/Air-Universe/releases)
+[![](https://img.shields.io/github/v/release/AikoXrayR-Project/XrayR?style=flat-square)](https://github.com/AikoAir-Univeverse/Air-Universe/releases)
+[![docker](https://img.shields.io/docker/v/aikocute/airu?label=Docker%20image&sort=semver)](https://hub.docker.com/r/aikocute/airu)
+[![Build and Release](https://github.com/AikoAir-Univeverse/Air-Universe/actions/workflows/release.yml/badge.svg)](https://github.com/AikoAir-Univeverse/Air-Universe/actions/workflows/release.yml)
+<img alt="visited" src="https://badges.pufler.dev/visits/AikoAir-Universe/Air-Universe"/>
+</div>
 
 
-| 功能            | VMess | Trojan | Shadowsocks | Vless |
-| --------------- | ----- | ------ | -----------| ------ |
-| 自动配置节点    | √     | √      | √           | ×  |
-| 获取用户信息    | √     | √      | √           | √ |
-| 用户流量统计    | √     | √      | √           | √ |
-| 服务器信息上报  | √     | √      | √           | √  |
-| 自动申请tls证书 | √     | √      | √           | √ |
-| 自动续签tls证书 | √     | √      | √           | √  |
-| 在线人数统计    | √     | √      | √           | √ | 
-| 在线用户限制    | ×     | ×      | ×           | × |
-| 审计规则        | 手动     | 手动     | 手动     | 手动 |
-| 审计上报        | ×     | ×          | ×       | × |
-| 节点端口限速    | 手动     | 手动      | 手动      | 手动 | 
-| 按照用户限速    | 手动     | 手动      | 手动      | 手动 |
-| 自定义DNS       | 手动     | 手动     | 手动     | 手动 |
+# Backend Air-Universe
 
-- 完全自定义 Xray 配置文件
-- Shadowsocks 单端口多用户 无须协议和混淆插件支持, 使用 AEAD 加密单端口 (原版 Clash 可用)
-- 支持单启动多开节点，单服务器多节点无须多开程序，多个入站配合多节点ID, 流量分开统计
-- 审计规则默认屏蔽BT和内网IP, 可自行添加, 不支持从面板拉取
-- 可自动生成配置的节点类型
-    - Shadowsocks
-    - VMess(V2ary) 
-      - 传输方式: TCP, Websocket, KCP, HTTP
-      - 传输层加密: TLS
-    - Trojan (TCP+TLS)
+Aiko đa chức năng mã nguồn mở , Giao thức hỗ trợ V2Ray (VMess), Trojan, Shadowsocks (một cổng đa người dùng) ; bảng điều khiển hỗ trợ SSPanel, v2board.
 
-## 支持前端
+> Nhóm TG phản hồi: https://t.me/Aikocutehotme <br>
+> Thích dự án này, cho chúng tôi Star⭐
 
-| 前端        | v2ray | trojan | shadowsocks |
-| ----------- | ----- | ------ | ---------- |
-| django-sspanel | √     | √      | √  |
-| sspanel-uim | √     | √      | √  |
-| v2board     | √     | √      | √          |
+## Tài liệu
+
+- Không có
+
+## Giới thiệu chức năng
+
+> √: Để sử dụng chức năng này, bạn chỉ cần sử dụng tập lệnh một cú nhấp chuột mà không cần sự can thiệp của người dùng <br>
+> Thủ công : Việc sử dụng chức năng này yêu cầu người dùng tự định cấu hình và người dùng cần sửa đổi thủ công tệp cấu hình Xray hoặc cập nhật chương trình Xray <br>
+> ×: Chức năng này hiện không được hỗ trợ
 
 
-## Thanks
 
-* [Project X](https://github.com/XTLS/)
-* [V2Fly](https://github.com/v2fly)
-* [XrayR](https://github.com/XrayR-project/XrayR)
-* [one_click_script](https://github.com/jinwyp/one_click_script)
-* [All stargazers](https://github.com/crossfw/Air-Universe/stargazers)
+| Chức năng                          | VMess | Trojan | Shadowsocks | Vless |
+| ---------------------------------- | ----- | ------ | ----------- | ----- |
+| Tự động định cấu hình các nút      |  √    |  √     |  √          |   ×   |
+| Nhận thông tin người dùng          |  √    |  √     |  √          |   √   |
+| Thống kê lưu lượng người dùng      |  √    |  √     |  √          |   √   |
+| Báo cáo thông tin máy chủ          |  √    |  √     |  √          |   √   |
+| Tự động đăng ký chứng chỉ TLS      |  √    |  √     |  √          |   √   |
+| Tự động gia hạn chứng chỉ tls      |  √    |  √     |  √          |   √   |
+| Đếm số người trực tuyến            |  √    |  √     |  √          |   √   |
+| Hạn chế Người dùng Trực tuyến      |  ×    |  ×     |  ×          |   ×   |
+| Quy tắc kiểm tra                   | HDSD  | HDSD   |     HDSD    |  HDSD |
+| Báo cáo kiểm toán                  |  ×    |  ×     |  ×          |   ×   |
+| Giới hạn tốc độ cổng nút           | HDSD  | HDSD   |     HDSD    |  HDSD |
+| Theo giới hạn tốc độ của người dùng| HDSD  | HDSD   |     HDSD    |  HDSD |
+| DNS tùy chỉnh                      | HDSD  | HDSD   |     HDSD    |  HDSD |
 
-## Licence
 
-[GNU General Public License v3.0](https://github.com/crossfw/Air-Universe/blob/master/LICENSE)
+- Cấu hình Xray hoàn toàn có thể tùy chỉnh
+- Shadowsocks một cổng đa người dùng Không cần giao thức và hỗ trợ plug-in làm xáo trộn , sử dụng cổng đơn mã hóa AEAD (có sẵn Clash gốc)
+- Hỗ trợ đa nút khởi động đơn, đa nút máy chủ đơn không cần mở nhiều chương trình, nhiều đầu vào với ID đa nút, thống kê lưu lượng truy cập riêng
+- Các quy tắc kiểm tra chặn BT và IP mạng nội bộ theo mặc định, bạn có thể tự thêm các quy tắc này nhưng không hỗ trợ kéo từ bảng điều khiển
+- Các loại nút cho cấu hình được tạo tự động
+    - Tất bóng
+    -VMess (V2ray)
+      - Phương thức truyền : TCP, Websocket, KCP, HTTP
+      - Mã hóa lớp truyền tải : TLS
+    - Trojan (TCP + TLS)
 
-## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/crossfw/Air-Universe.svg)](https://starchart.cc/crossfw/Air-Universe)
+## Hỗ trợ giao diện người dùng
+
+| Bảng điều khiển     | v2ray | trojan | shadowsocks |
+| ------------------- | ----- | ------ | ----------- |
+| sspanel-uim         | √     | √      | √           |
+| v2board             | √     | √      | √           |
+
 

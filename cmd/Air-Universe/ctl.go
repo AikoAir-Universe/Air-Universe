@@ -2,11 +2,12 @@ package main
 
 import (
 	"errors"
-	"github.com/crossfw/Air-Universe/pkg/DjangoSSPanelAPI"
-	"github.com/crossfw/Air-Universe/pkg/SSPanelAPI"
-	"github.com/crossfw/Air-Universe/pkg/V2boardAPI"
-	"github.com/crossfw/Air-Universe/pkg/XrayAPI"
-	"github.com/crossfw/Air-Universe/pkg/structures"
+
+	"github.com/AikoAir-Univeverse/Air-Universe/pkg/DjangoSSPanelAPI"
+	"github.com/AikoAir-Univeverse/Air-Universe/pkg/SSPanelAPI"
+	"github.com/AikoAir-Univeverse/Air-Universe/pkg/V2boardAPI"
+	"github.com/AikoAir-Univeverse/Air-Universe/pkg/XrayAPI"
+	"github.com/AikoAir-Univeverse/Air-Universe/pkg/structures"
 	log "github.com/sirupsen/logrus"
 )
 

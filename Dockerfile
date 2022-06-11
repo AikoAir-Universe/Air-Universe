@@ -9,9 +9,9 @@ RUN go mod download && \
 
 # Release
 FROM alpine
-# 安装必要的工具包
+# aikocute
 RUN apk --update --no-cache add tzdata ca-certificates && \
-    cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
+    cp /usr/share/zoneinfo/Asia/Ho_Chi_Minh /etc/localtime && \
     mkdir /etc/au/ && mkdir -p /usr/local/share/au/
 COPY --from=builder /app/au /usr/local/bin
 ENTRYPOINT [ "au", "-c", "/etc/au/config.json"]

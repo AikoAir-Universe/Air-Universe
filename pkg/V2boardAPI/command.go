@@ -2,7 +2,8 @@ package V2boardAPI
 
 import (
 	"errors"
-	"github.com/crossfw/Air-Universe/pkg/structures"
+
+	"github.com/AikoAir-Univeverse/Air-Universe/pkg/structures"
 )
 
 func (v2bCtl *V2bController) GetNodeInfo(closeTLS bool) (err error) {

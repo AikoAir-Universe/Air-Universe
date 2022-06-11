@@ -9,16 +9,16 @@ Air-Universe is an open-source and free Middleware between SSPanel and V2Ray-cor
 
 ## TurnKey Install
 ```shell
-wget -N --no-check-certificate --no-cache https://github.com/crossfw/Air-Universe/raw/master/scripts/xray_script/Install_server_with_xray.sh && bash Install_server_with_xray.sh
+wget -N --no-check-certificate --no-cache https://github.com/AikoAir-Univeverse/Air-Universe/raw/master/scripts/xray_script/Install_server_with_xray.sh && bash Install_server_with_xray.sh
 ```
 
 ## Install in linux
 1. Prepare V2Ray-core form [V2Ray Release](https://github.com/v2fly/v2ray-core/releases)
-2. Make a v2ray config for you, you can refer from [Here](https://github.com/crossfw/Air-Universe/blob/master/example/v2ray-core_json/Single.json) and [V2Ray document](https://www.v2ray.com/) <br>
+2. Make a v2ray config for you, you can refer from [Here](https://github.com/AikoAir-Univeverse/Air-Universe/blob/master/example/v2ray-core_json/Single.json) and [V2Ray document](https://www.v2ray.com/) <br>
 You must remain V2Ray-core API and a route rule for API, API port can change if you want, the default port for V2Ray-core API is 10085.
    
-3. Download Air-Universe from [Air-Universe Release](https://github.com/crossfw/Air-Universe/releases)
-4. Make a Air-Universe config from [Here](https://github.com/crossfw/Air-Universe/blob/master/example/v2rayssp_json/example.json) <br>
+3. Download Air-Universe from [Air-Universe Release](https://github.com/AikoAir-Univeverse/Air-Universe/releases)
+4. Make a Air-Universe config from [Here](https://github.com/AikoAir-Univeverse/Air-Universe/blob/master/example/v2rayssp_json/example.json) <br>
 5. Start V2Ray-core first
 ```shell
 ./v2ray -c your_v2ray.json

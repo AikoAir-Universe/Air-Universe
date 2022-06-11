@@ -1,11 +1,11 @@
 # TurnKey Install
 Air-Universe 管理脚本(安装+拆卸+申请证书)
 ```shell
-bash <(curl -Ls https://raw.githubusercontent.com/crossfw/Air-Universe-install/master/AirU.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/AikoAir-Univeverse/Air-Universe-install/master/AirU.sh)
 ```
 升级Xray
 ```shell
-bash -c "$(curl -L https://github.com/crossfw/Xray-install/raw/main/install-release.sh)" @ install
+bash -c "$(curl -L https://github.com/AikoAir-Univeverse/Xray-install/raw/main/install-release.sh)" @ install
 ```
 
 ## 详细说明

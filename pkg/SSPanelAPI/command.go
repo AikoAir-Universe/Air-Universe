@@ -1,6 +1,6 @@
 package SSPanelAPI
 
-import "github.com/crossfw/Air-Universe/pkg/structures"
+import "github.com/AikoAir-Univeverse/Air-Universe/pkg/structures"
 
 func (sspCtl *SspController) GetNodeInfo(closeTLS bool) (err error) {
 	return getNodeInfo(sspCtl, closeTLS)

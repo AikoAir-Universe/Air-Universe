@@ -2,7 +2,8 @@ package XrayAPI
 
 import (
 	"context"
-	"github.com/crossfw/Air-Universe/pkg/structures"
+
+	"github.com/AikoAir-Univeverse/Air-Universe/pkg/structures"
 	"github.com/xtls/xray-core/app/proxyman/command"
 	"github.com/xtls/xray-core/common/protocol"
 	"github.com/xtls/xray-core/common/serial"
