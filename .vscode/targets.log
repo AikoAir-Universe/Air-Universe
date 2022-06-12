@@ -8,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This program built for i386-apple-darwin11.3.0
  
 
-# Make data base, printed on Sun Jun 12 09:37:17 2022
+# Make data base, printed on Sun Jun 12 09:54:16 2022
 
 # Variables
 
@@ -31,6 +31,7 @@ CURDIR := /Users/aiko/Desktop/aikocute.git/Air-Universe
 # makefile
 SHELL = /bin/sh
 # environment
+ 
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
@@ -49,11 +50,12 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/s9/k96g238s19j75mb1hz_sxkwm0000gn/T/vscode-ipc-5302f3b6-fa24-47d0-8395-6d717bade2e7.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/s9/k96g238s19j75mb1hz_sxkwm0000gn/T/vscode-ipc-cbbb6a0f-e201-407d-b91b-aaf7aa2a0448.sock
 # environment
 VSCODE_CWD = /
 # environment
 GOPROXY = https://proxy.golang.org,direct
+ 
 # environment
 PATH = /usr/local/go/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 # environment
@@ -82,6 +84,7 @@ HOME = /Users/aiko
 MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
 # environment
 VSCODE_CODE_CACHE_PATH = /Users/aiko/Library/Application Support/Code/CachedData/4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+ 
 # environment
 LOGNAME = aiko
 # environment
@@ -110,6 +113,7 @@ USER = aiko
 NAME = Air-Universe
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
+ 
 # default
 MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
 # default
@@ -172,6 +176,7 @@ VSCODE_PID = 1899
 # 17 files, no impossibilities in 1 directories.
 
 # Implicit Rules
+ 
 
 # No implicit rules.
 
@@ -251,6 +256,7 @@ linux-386.gz: linux-386
 	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
 	
 
+ 
 all-arch: darwin-amd64 linux-386 linux-amd64 linux-armv5 linux-armv6 linux-armv7 linux-armv8 linux-mips-softfloat linux-mips-hardfloat linux-mipsle-softfloat linux-mipsle-hardfloat linux-mips64 linux-mips64le freebsd-386 freebsd-amd64 windows-386 windows-amd64
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -277,7 +283,6 @@ linux-mips64:
 linux-mipsle-hardfloat:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
- 
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 63):
 	GOARCH=mipsle GOMIPS=hardfloat GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@ $(GOFILES)
@@ -365,6 +370,7 @@ linux-mips64le.gz: linux-mips64le
 linux-amd64.gz: linux-amd64
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: `linux-amd64'
+ 
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 87):
@@ -534,7 +540,6 @@ linux-mips-hardfloat:
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 57):
- 
 	GOARCH=mips GOMIPS=hardfloat GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@ $(GOFILES)
 	
 
@@ -569,6 +574,6 @@ windows-amd64:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sun Jun 12 09:37:17 2022
+# Finished Make data base on Sun Jun 12 09:54:16 2022
 
  
