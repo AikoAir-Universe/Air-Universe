@@ -5,17 +5,19 @@ go 1.18
 require (
 	github.com/bitly/go-simplejson v0.5.0
 	github.com/dlclark/regexp2 v1.4.0
-	github.com/shirou/gopsutil v3.21.2+incompatible
+	github.com/shirou/gopsutil v3.21.11+incompatible
 	github.com/sirupsen/logrus v1.8.1
 	github.com/xtls/xray-core v1.5.7
 	google.golang.org/grpc v1.47.0
 )
 
 require (
-	github.com/StackExchange/wmi v1.2.1 // indirect
 	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
 	github.com/cheekybits/genny v1.0.0 // indirect
 	github.com/dgryski/go-metro v0.0.0-20211217172704-adc40b04c140 // indirect
+  dependabot/go_modules/github.com/shirou/gopsutil-3.21.11incompatible
+	github.com/fsnotify/fsnotify v1.5.1 // indirect
+	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/francoispqt/gojay v1.2.13 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/go-ole/go-ole v1.2.5 // indirect
@@ -39,6 +41,13 @@ require (
 	github.com/tklauser/numcpus v0.3.0 // indirect
 	github.com/v2fly/ss-bloomring v0.0.0-20210312155135-28617310f63e // indirect
 	github.com/xtls/go v0.0.0-20210920065950-d4af136d3672 // indirect
+  dependabot/go_modules/github.com/shirou/gopsutil-3.21.11incompatible
+	github.com/yusufpapurcu/wmi v1.2.2 // indirect
+	go.starlark.net v0.0.0-20220302181546-5411bad688d1 // indirect
+	golang.org/x/crypto v0.0.0-20220312131142-6068a2e6cfdc // indirect
+	golang.org/x/mod v0.5.1 // indirect
+	golang.org/x/net v0.0.0-20220225172249-27dd8689420f // indirect
+	golang.org/x/sys v0.0.0-20220310020820-b874c991c1a5 // indirect
 	go.starlark.net v0.0.0-20220328144851-d1966c6b9fcd // indirect
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e // indirect
 	golang.org/x/mod v0.6.0-dev.0.20220106191415-9b9b3d81d5e3 // indirect
