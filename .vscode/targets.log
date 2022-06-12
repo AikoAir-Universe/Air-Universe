@@ -8,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This program built for i386-apple-darwin11.3.0
  
 
-# Make data base, printed on Sun Jun 12 01:12:03 2022
+# Make data base, printed on Sun Jun 12 09:37:17 2022
 
 # Variables
 
@@ -49,7 +49,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/s9/k96g238s19j75mb1hz_sxkwm0000gn/T/vscode-ipc-c56d6587-7c69-480f-afd7-368fe795768c.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/s9/k96g238s19j75mb1hz_sxkwm0000gn/T/vscode-ipc-5302f3b6-fa24-47d0-8395-6d717bade2e7.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -230,7 +230,6 @@ windows-amd64.zip: windows-amd64
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 91):
- 
 	zip -m -j $(BINDIR)/$(NAME)-$(basename $@)-$(VERSION).zip $(BINDIR)/$(NAME)-$(basename $@).exe
 	
 
@@ -278,6 +277,7 @@ linux-mips64:
 linux-mipsle-hardfloat:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
+ 
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 63):
 	GOARCH=mipsle GOMIPS=hardfloat GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@ $(GOFILES)
@@ -480,7 +480,6 @@ windows-386:
 
 clean:
 #  Implicit rule search has not been done.
- 
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 97):
@@ -535,6 +534,7 @@ linux-mips-hardfloat:
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 57):
+ 
 	GOARCH=mips GOMIPS=hardfloat GOOS=linux $(GOBUILD) -o $(BINDIR)/$(NAME)-$@ $(GOFILES)
 	
 
@@ -569,6 +569,6 @@ windows-amd64:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sun Jun 12 01:12:03 2022
+# Finished Make data base on Sun Jun 12 09:37:17 2022
 
  
