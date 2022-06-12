@@ -8,7 +8,7 @@ require (
 	github.com/shirou/gopsutil v3.21.2+incompatible
 	github.com/sirupsen/logrus v1.8.1
 	github.com/xtls/xray-core v1.5.4
-	google.golang.org/grpc v1.45.0
+	google.golang.org/grpc v1.47.0
 )
 
 require (
