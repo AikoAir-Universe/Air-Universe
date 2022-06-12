@@ -144,7 +144,7 @@ jobs:
         run: |
           mv build_assets Air-Universe-$ASSET_NAME
       - name: Upload files to Artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: Air-Universe-${{ steps.get_filename.outputs.ASSET_NAME }}
           path: |
