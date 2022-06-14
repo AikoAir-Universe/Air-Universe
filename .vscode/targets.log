@@ -6,9 +6,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
- 
 
-# Make data base, printed on Sun Jun 12 09:54:16 2022
+# Make data base, printed on Mon Jun 13 19:32:37 2022
 
 # Variables
 
@@ -31,7 +30,6 @@ CURDIR := /Users/aiko/Desktop/aikocute.git/Air-Universe
 # makefile
 SHELL = /bin/sh
 # environment
- 
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
@@ -39,8 +37,6 @@ _ = /usr/bin/make
 GOBUILD = CGO_ENABLED=0 go build --ldflags="-s -w" -v -x -a
 # makefile (from `Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # makefile (from `Makefile', line 7)
 PLATFORM_LIST = darwin-amd64 linux-386 linux-amd64 linux-armv5 linux-armv6 linux-armv7 linux-armv8 linux-mips-softfloat linux-mips-hardfloat linux-mipsle-softfloat linux-mipsle-hardfloat linux-mips64 linux-mips64le freebsd-386 freebsd-amd64
 # makefile (from `Makefile', line 3)
@@ -50,16 +46,15 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 __CFBundleIdentifier = com.microsoft.VSCode
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/s9/k96g238s19j75mb1hz_sxkwm0000gn/T/vscode-ipc-cbbb6a0f-e201-407d-b91b-aaf7aa2a0448.sock
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/s9/k96g238s19j75mb1hz_sxkwm0000gn/T/vscode-ipc-7281b4ba-d90c-4ab5-bf3e-60e95d5102bf.sock
 # environment
 VSCODE_CWD = /
 # environment
-GOPROXY = https://proxy.golang.org,direct
- 
+PATH = /opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin
 # environment
-PATH = /usr/local/go/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
-# environment
-GOPATH = /Users/aiko/go
+LaunchInstanceID = F7C07FBF-124B-4FCC-85B3-A836E25E8DB5
 # environment
 VSCODE_LOG_STACK = false
 # environment
@@ -67,7 +62,7 @@ ELECTRON_RUN_AS_NODE = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
 # environment
-SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.N6imrDcDFB/Listeners
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.tL7RpAozAP/Listeners
 # automatic
 %F = $(notdir $%)
 # environment
@@ -75,16 +70,19 @@ VSCODE_PIPE_LOGGING = true
 # environment
 PWD = /Users/aiko/Desktop/aikocute.git/Air-Universe
 # environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
-GOMODCACHE = /Users/aiko/go/pkg/mod
+MANPATH = /opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 HOME = /Users/aiko
 # default
 MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
 # environment
 VSCODE_CODE_CACHE_PATH = /Users/aiko/Library/Application Support/Code/CachedData/4af164ea3a06f701fe3e89a2bcbb421d2026b68f
- 
 # environment
 LOGNAME = aiko
 # environment
@@ -113,7 +111,6 @@ USER = aiko
 NAME = Air-Universe
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
- 
 # default
 MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
 # default
@@ -132,12 +129,16 @@ MFLAGS = -Rrqp
 *D = $(patsubst %/,%,$(dir $*))
 # environment
 XPC_SERVICE_NAME = application.com.microsoft.VSCode.74143.74149
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
 # automatic
 +D = $(patsubst %/,%,$(dir $+))
 # automatic
 +F = $(notdir $+)
 # makefile (from `Makefile', line 83)
 gz_releases = $(addsuffix .gz, $(PLATFORM_LIST))
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
 # environment
 __CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
 # environment
@@ -150,6 +151,8 @@ MAKEFILES :=
 LC_ALL = C
 # makefile (from `Makefile', line 84)
 zip_releases = $(addsuffix .zip, $(WINDOWS_ARCH_LIST))
+# environment
+SECURITYSESSIONID = 186a5
 # automatic
 ^F = $(notdir $^)
 # default
@@ -161,9 +164,9 @@ MAKELEVEL := 0
 # environment
 LANG = C
 # environment
-VSCODE_PID = 1899
+VSCODE_PID = 477
 # variable set hash-table stats:
-# Load=73/1024=7%, Rehash=0, Collisions=6/112=5%
+# Load=77/1024=8%, Rehash=0, Collisions=5/116=4%
 
 # Pattern-specific Variable Values
 
@@ -171,12 +174,11 @@ VSCODE_PID = 1899
 
 # Directories
 
-# . (device 16777232, inode 1598079): 17 files, no impossibilities.
+# . (device 16777229, inode 1598079): 18 files, no impossibilities.
 
-# 17 files, no impossibilities in 1 directories.
+# 18 files, no impossibilities in 1 directories.
 
 # Implicit Rules
- 
 
 # No implicit rules.
 
@@ -256,7 +258,6 @@ linux-386.gz: linux-386
 	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
 	
 
- 
 all-arch: darwin-amd64 linux-386 linux-amd64 linux-armv5 linux-armv6 linux-armv7 linux-armv8 linux-mips-softfloat linux-mips-hardfloat linux-mipsle-softfloat linux-mipsle-hardfloat linux-mips64 linux-mips64le freebsd-386 freebsd-amd64 windows-386 windows-amd64
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -265,6 +266,7 @@ all-arch: darwin-amd64 linux-386 linux-amd64 linux-armv5 linux-armv6 linux-armv7
 linux-armv6.gz: linux-armv6
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: `linux-armv6'
+ 
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 87):
@@ -315,7 +317,7 @@ linux-mipsle-softfloat.gz: linux-mipsle-softfloat
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-12 00:48:58
+#  Last modified 2022-06-11 11:26:38
 #  File has been updated.
 #  Successfully updated.
 # variable set hash-table stats:
@@ -370,7 +372,6 @@ linux-mips64le.gz: linux-mips64le
 linux-amd64.gz: linux-amd64
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: `linux-amd64'
- 
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 87):
@@ -523,6 +524,7 @@ freebsd-amd64.gz: freebsd-amd64
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 87):
 	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
+ 
 	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
 	
 
@@ -574,6 +576,6 @@ windows-amd64:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Sun Jun 12 09:54:16 2022
+# Finished Make data base on Mon Jun 13 19:32:37 2022
 
  
