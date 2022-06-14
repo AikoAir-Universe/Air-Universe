@@ -6,8 +6,9 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
+ 
 
-# Make data base, printed on Mon Jun 13 19:32:37 2022
+# Make data base, printed on Wed Jun 15 01:31:58 2022
 
 # Variables
 
@@ -37,6 +38,8 @@ _ = /usr/bin/make
 GOBUILD = CGO_ENABLED=0 go build --ldflags="-s -w" -v -x -a
 # makefile (from `Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # makefile (from `Makefile', line 7)
 PLATFORM_LIST = darwin-amd64 linux-386 linux-amd64 linux-armv5 linux-armv6 linux-armv7 linux-armv8 linux-mips-softfloat linux-mips-hardfloat linux-mipsle-softfloat linux-mipsle-hardfloat linux-mips64 linux-mips64le freebsd-386 freebsd-amd64
 # makefile (from `Makefile', line 3)
@@ -48,11 +51,15 @@ __CFBundleIdentifier = com.microsoft.VSCode
 # environment
 INFOPATH = /opt/homebrew/share/info:
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/s9/k96g238s19j75mb1hz_sxkwm0000gn/T/vscode-ipc-7281b4ba-d90c-4ab5-bf3e-60e95d5102bf.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/s9/k96g238s19j75mb1hz_sxkwm0000gn/T/vscode-ipc-56c4fd1c-7206-46af-82c2-490e7d414ed9.sock
 # environment
 VSCODE_CWD = /
 # environment
+GOPROXY = https://proxy.golang.org,direct
+# environment
 PATH = /opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin
+# environment
+GOPATH = /Users/aiko/go
 # environment
 LaunchInstanceID = F7C07FBF-124B-4FCC-85B3-A836E25E8DB5
 # environment
@@ -76,7 +83,7 @@ ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 # environment
 MANPATH = /opt/homebrew/share/man::
 # environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+GOMODCACHE = /Users/aiko/go/pkg/mod
 # environment
 HOME = /Users/aiko
 # default
@@ -166,7 +173,7 @@ LANG = C
 # environment
 VSCODE_PID = 477
 # variable set hash-table stats:
-# Load=77/1024=8%, Rehash=0, Collisions=5/116=4%
+# Load=80/1024=8%, Rehash=0, Collisions=6/119=5%
 
 # Pattern-specific Variable Values
 
@@ -266,11 +273,11 @@ all-arch: darwin-amd64 linux-386 linux-amd64 linux-armv5 linux-armv6 linux-armv7
 linux-armv6.gz: linux-armv6
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: `linux-armv6'
- 
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 87):
 	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
+ 
 	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
 	
 
@@ -524,13 +531,13 @@ freebsd-amd64.gz: freebsd-amd64
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 87):
 	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
- 
 	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
 	
 
 windows-386.zip: windows-386
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: `windows-386'
+ 
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 91):
@@ -576,6 +583,6 @@ windows-amd64:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Mon Jun 13 19:32:37 2022
+# Finished Make data base on Wed Jun 15 01:31:58 2022
 
  
