@@ -8,14 +8,13 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This program built for i386-apple-darwin11.3.0
  
 
-# Make data base, printed on Wed Jun 15 23:44:45 2022
+# Make data base, printed on Thu Jun 16 00:08:24 2022
 
 # Variables
 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
- 
 ?F = $(notdir $?)
 # environment
 VSCODE_LOG_NATIVE = false
@@ -52,7 +51,7 @@ __CFBundleIdentifier = com.microsoft.VSCode
 # environment
 INFOPATH = /opt/homebrew/share/info:/opt/homebrew/share/info:
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/s9/k96g238s19j75mb1hz_sxkwm0000gn/T/vscode-ipc-d91c90d2-da74-4b8d-a7b2-714d3aed350a.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/s9/k96g238s19j75mb1hz_sxkwm0000gn/T/vscode-ipc-1b1f581c-2068-4d38-bcd5-80459a198c57.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -189,7 +188,6 @@ VSCODE_PID = 1485
 # No implicit rules.
 
 # Files
- 
 
 linux-mipsle-hardfloat.gz: linux-mipsle-hardfloat
 #  Implicit rule search has not been done.
@@ -271,6 +269,7 @@ all-arch: darwin-amd64 linux-386 linux-amd64 linux-armv5 linux-armv6 linux-armv7
 #  File has not been updated.
 
 linux-armv6.gz: linux-armv6
+ 
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: `linux-armv6'
 #  Modification time never checked.
@@ -381,7 +380,6 @@ linux-amd64.gz: linux-amd64
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 87):
- 
 	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
 	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
 	
@@ -529,6 +527,7 @@ freebsd-amd64.gz: freebsd-amd64
 #  Implicit/static pattern stem: `freebsd-amd64'
 #  Modification time never checked.
 #  File has not been updated.
+ 
 #  commands to execute (from `Makefile', line 87):
 	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
 	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
@@ -582,6 +581,6 @@ windows-amd64:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Finished Make data base on Wed Jun 15 23:44:45 2022
+# Finished Make data base on Thu Jun 16 00:08:24 2022
 
  
