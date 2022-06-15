@@ -6,9 +6,8 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # PARTICULAR PURPOSE.
 
 # This program built for i386-apple-darwin11.3.0
- 
 
-# Make data base, printed on Wed Jun 15 01:31:58 2022
+# Make data base, printed on Wed Jun 15 09:45:22 2022
 
 # Variables
 
@@ -51,7 +50,7 @@ __CFBundleIdentifier = com.microsoft.VSCode
 # environment
 INFOPATH = /opt/homebrew/share/info:
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/s9/k96g238s19j75mb1hz_sxkwm0000gn/T/vscode-ipc-56c4fd1c-7206-46af-82c2-490e7d414ed9.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/s9/k96g238s19j75mb1hz_sxkwm0000gn/T/vscode-ipc-62594e37-fe91-4ef7-b84b-35f27f0c9c02.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -270,6 +269,7 @@ all-arch: darwin-amd64 linux-386 linux-amd64 linux-armv5 linux-armv6 linux-armv7
 #  Modification time never checked.
 #  File has not been updated.
 
+ 
 linux-armv6.gz: linux-armv6
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: `linux-armv6'
@@ -277,7 +277,6 @@ linux-armv6.gz: linux-armv6
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 87):
 	chmod +x $(BINDIR)/$(NAME)-$(basename $@)
- 
 	gzip -f -S -$(VERSION).gz $(BINDIR)/$(NAME)-$(basename $@)
 	
 
@@ -433,6 +432,7 @@ linux-armv7.gz: linux-armv7
 	
 
 # Not a target:
+ 
 .DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -537,7 +537,6 @@ freebsd-amd64.gz: freebsd-amd64
 windows-386.zip: windows-386
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: `windows-386'
- 
 #  Modification time never checked.
 #  File has not been updated.
 #  commands to execute (from `Makefile', line 91):
@@ -582,7 +581,8 @@ windows-amd64:
 # # of strcache buffers: 1
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+ 
 
-# Finished Make data base on Wed Jun 15 01:31:58 2022
+# Finished Make data base on Wed Jun 15 09:45:22 2022
 
  
