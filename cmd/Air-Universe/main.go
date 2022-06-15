@@ -17,7 +17,7 @@ import (
 )
 
 const (
-	VERSION = "1.2.4"
+	VERSION = "1.2.5"
 )
 
 type WaitGroupWrapper struct {
@@ -37,7 +37,7 @@ func init() {
 	flag.Parse()
 
 	if printVersion {
-		_, _ = fmt.Fprintf(os.Stdout, "Air-Universe %s\n", VERSION)
+		_, _ = fmt.Fprintf(os.Stdout, "AikoAir-Universe %s\n", VERSION)
 		os.Exit(0)
 	}
 	if configPath != "" {
