@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/bitly/go-simplejson v0.5.0
-	github.com/dlclark/regexp2 v1.4.0
+	github.com/dlclark/regexp2 v1.7.0
 	github.com/shirou/gopsutil v3.21.11+incompatible
 	github.com/sirupsen/logrus v1.8.1
 	github.com/xtls/xray-core v1.5.8
